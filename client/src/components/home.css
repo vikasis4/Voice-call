@@ -1,0 +1,100 @@
+.home {
+    width: 100vw;
+    background-color: rgb(8, 27, 116);
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+}
+
+.h1 {
+    color: #fff;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    text-align: left;
+    padding-left: 2rem;
+    font-family: 'Archivo', sans-serif;
+    border-bottom: 1.8px solid white;
+    width: max-content;
+    padding-right: 3px;
+    padding-bottom: 2px;
+}
+
+.h2 {
+    color: #fff;
+    font-size: 4rem;
+    padding-top: 3rem;
+    font-family: 'Vollkorn', serif;
+}
+
+.h3 {
+    font-family: 'Archivo', sans-serif;
+    color: #fff;
+    word-spacing: 4px;
+    font-size: 1.6rem;
+    padding-top: 3rem;
+}
+
+.img {
+    height: 8rem;
+    width: 8em;
+}
+
+.img2 {
+    height: 4rem;
+    width: 4rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 50rem;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.btn {
+    padding: 0.8rem 4rem;
+    border-radius: 1rem;
+    margin:0 auto;
+    background-color: white;
+    color: blueviolet;
+    box-shadow: 2px 0px 23px 2px rgba(255,255,255,0.8);
+    font-family: 'Roboto Slab', serif;
+}
+
+.card{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    position:absolute;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    transition: all 1s;
+    height: 100%;
+    gap:5rem;
+    box-shadow: inset 0px 0px 20px 2px black;
+}
+.card_text{
+    font-family: 'Vollkorn', serif;
+    color: black;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.4);
+    background-color: lightseagreen;
+    width: 80%;
+}
